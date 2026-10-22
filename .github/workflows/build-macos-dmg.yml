@@ -1,0 +1,82 @@
+name: Build macOS DMG
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '版本号 (如 0.3.2)'
+        required: true
+        default: '0.3.2'
+
+permissions:
+  contents: write
+
+jobs:
+  build-macos:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install Tauri CLI
+        run: npm install --save-dev @tauri-apps/cli@2
+
+      - name: Extract version
+        id: ver
+        run: |
+          V="${{ github.event.inputs.version }}"
+          if [ -z "$V" ]; then
+            V=$(grep -oP '"version":\s*"\K[^"]+' src-tauri/tauri.conf.json | head -1)
+          fi
+          [ -z "$V" ] && V="1.0.0"
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "Version: $V"
+
+      - name: Sync version into tauri.conf.json
+        run: |
+          python3 - <<'PYEOF'
+          import json, re, os
+          p = 'src-tauri/tauri.conf.json'
+          s = open(p, encoding='utf-8').read()
+          v = os.environ['VER']
+          s = re.sub(r'("version":\s*")[^"]+(")', r'\g<1>' + v + r'\g<2>', s, count=1)
+          open(p, 'w', encoding='utf-8').write(s)
+          print('version set to', v)
+          PYEOF
+        env:
+          VER: ${{ steps.ver.outputs.version }}
+
+      - name: Build DMG
+        run: npm run tauri build
+
+      - name: Collect artifacts
+        run: |
+          set -e
+          mkdir -p out
+          find src-tauri/target/release/bundle -name "*.dmg" -exec cp {} out/ \;
+          ls -lh out/
+
+      - name: Upload DMG artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: macOS-DMG
+          path: out/*.dmg
+          if-no-files-found: error
+
+      - name: Attach DMG to release (on tag)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: out/*.dmg
+          generate_release_notes: true

@@ -28,3 +28,6 @@ tmp/
 nohup.out
 tools/jdk21/
 tools/ffmpeg/
+
+# Tauri
+src-tauri/target/

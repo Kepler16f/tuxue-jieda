@@ -1,10 +1,12 @@
 {
-  "name": "_tuxue_web",
-  "version": "1.0.0",
-  "description": "",
+  "name": "tuxue-jieda",
+  "version": "0.3.1",
+  "description": "图学基础教程习题解答",
+  "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tauri": "tauri"
   },
   "keywords": [],
   "type": "commonjs",
@@ -14,7 +16,8 @@
     "@capacitor/core": "^8.5.3"
   },
   "devDependencies": {
-    "@capacitor/assets": "^3.0.5"
+    "@capacitor/assets": "^3.0.5",
+    "@tauri-apps/cli": "^2"
   },
   "allowScripts": {
     "sharp@0.32.6": true
