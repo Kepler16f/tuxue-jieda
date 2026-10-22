@@ -37,7 +37,7 @@ jobs:
         run: |
           V="${{ github.event.inputs.version }}"
           if [ -z "$V" ]; then
-            V=$(grep -oP '"version":\s*"\K[^"]+' src-tauri/tauri.conf.json | head -1)
+            V=$(python3 -c "import json;print(json.load(open('src-tauri/tauri.conf.json',encoding='utf-8'))['version'])")
           fi
           [ -z "$V" ] && V="1.0.0"
           echo "version=$V" >> "$GITHUB_OUTPUT"
