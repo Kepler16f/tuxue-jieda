@@ -59,50 +59,57 @@ jobs:
         run: |
           set -e
           PBXPROJ="App.xcodeproj/project.pbxproj"
-          # 为 iOS target 启用 Mac Catalyst 支持
-          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName 图学基础教程习题解答" App/App/Info.plist 2>/dev/null || true
-          # 设置 MARKETING_VERSION
-          sed -i '' "s/MARKETING_VERSION = 1.0;/MARKETING_VERSION = ${{ steps.ver.outputs.version }};/g" "$PBXPROJ"
-          # SUPPORTS_MACCATALYST = YES
-          sed -i '' 's/ENABLE_USER_SCRIPT_SANDBOXING = YES;/ENABLE_USER_SCRIPT_SANDBOXING = YES; SUPPORTS_MACCATALYST = YES;/g' "$PBXPROJ"
+          # 为 iOS target 启用 Mac Catalyst 支持（SUPPORTS_MACCATALYST 注入到每个 build configuration）
+          python3 - "$PBXPROJ" <<'PYEOF'
+          import re, sys
+          p = sys.argv[1]
+          s = open(p, encoding='utf-8').read()
+          # 在 buildSettings 块里给每个 configuration 注入 SUPPORTS_MACCATALYST
+          def inject(m):
+              block = m.group(0)
+              if 'SUPPORTS_MACCATALYST' in block:
+                  return block
+              return block + "\n\t\t\t\tSUPPORTS_MACCATALYST = YES;"
+          s2 = re.sub(r'buildSettings = \{.*?\n\t\t\t\};', inject, s, flags=re.S)
+          # 只给主 App target（第一个 buildSettings 块）注入
+          open(p, 'w', encoding='utf-8').write(s2)
+          PYEOF
+          grep -c "SUPPORTS_MACCATALYST" "$PBXPROJ" || true
 
-      - name: Build archive (Mac Catalyst)
+      - name: Build for macOS (Mac Catalyst)
         working-directory: ios/App
         run: |
           set -e
-          xcodebuild archive \
+          xcodebuild \
             -project App.xcodeproj \
             -scheme App \
             -configuration Release \
-            -destination 'generic/platform=macOS,variant=Mac Catalyst' \
-            -archivePath "$RUNNER_TEMP/App.xcarchive" \
+            -destination 'platform=macOS,variant=Mac Catalyst' \
+            -derivedDataPath "$RUNNER_TEMP/dd" \
+            -archivePath "$RUNNER_TEMP/App.xcarchive" archive \
             CODE_SIGN_IDENTITY="-" \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGNING_ALLOWED=NO \
             DEVELOPMENT_TEAM="" \
-            | xcpretty || xcodebuild archive \
-            -project App.xcodeproj \
-            -scheme App \
-            -configuration Release \
-            -destination 'generic/platform=macOS,variant=Mac Catalyst' \
-            -archivePath "$RUNNER_TEMP/App.xcarchive" \
-            CODE_SIGN_IDENTITY="-" \
-            CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGNING_ALLOWED=NO \
-            DEVELOPMENT_TEAM=""
+            SUPPORTS_MACCATALYST=YES \
+            | tee "$RUNNER_TEMP/build.log" | grep -E "error:|warning: .*catalyst|BUILD SUCCEEDED|BUILD FAILED|ARCHIVE SUCCEEDED" || true
+          grep -E "error:|BUILD FAILED" "$RUNNER_TEMP/build.log" && exit 1 || true
+          ls "$RUNNER_TEMP/App.xcarchive/Products/Applications/" || ls "$RUNNER_TEMP/dd/Build/Products/Release/" || true
 
       - name: Export .app
         run: |
           set -e
-          APP_PATH="$RUNNER_TEMP/App.xcarchive/Products/Applications/App.app"
-          if [ ! -d "$APP_PATH" ]; then
-            APP_PATH=$(find "$RUNNER_TEMP/App.xcarchive" -name "*.app" -maxdepth 4 -type d | head -1)
+          APP_PATH=$(find "$RUNNER_TEMP/App.xcarchive/Products/Applications" "$RUNNER_TEMP/dd/Build/Products" -maxdepth 3 -name "*.app" -type d 2>/dev/null | head -1)
+          if [ -z "$APP_PATH" ]; then
+            echo "::error::未找到 .app 产物"
+            exit 1
           fi
           echo "Found app: $APP_PATH"
           cp -R "$APP_PATH" "$RUNNER_TEMP/图学基础教程习题解答.app"
-          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString ${{ steps.ver.outputs.version }}" "$RUNNER_TEMP/图学基础教程习题解答.app/Contents/Info.plist"
-          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName 图学基础教程习题解答" "$RUNNER_TEMP/图学基础教程习题解答.app/Contents/Info.plist" 2>/dev/null || true
-          /usr/libexec/PlistBuddy -c "Set :CFBundleName 图学基础教程习题解答" "$RUNNER_TEMP/图学基础教程习题解答.app/Contents/Info.plist" 2>/dev/null || true
+          PLIST="$RUNNER_TEMP/图学基础教程习题解答.app/Contents/Info.plist"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString ${{ steps.ver.outputs.version }}" "$PLIST"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName 图学基础教程习题解答" "$PLIST" 2>/dev/null || true
+          /usr/libexec/PlistBuddy -c "Set :CFBundleName 图学基础教程习题解答" "$PLIST" 2>/dev/null || true
 
       - name: Create DMG
         run: |
