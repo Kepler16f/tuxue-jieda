@@ -1,0 +1,768 @@
+{
+ "ok": [
+  "aP105_18.avi",
+  "aP115_22_4.avi",
+  "aP117_1.avi",
+  "aP35_41.avi",
+  "aP39_47.avi",
+  "aP39_47_1.avi",
+  "aP39_47_2.avi",
+  "aP40_48.avi",
+  "aP40_49.avi",
+  "aP41_50.avi",
+  "aP41_51.avi",
+  "aP42_52.avi",
+  "aP42_53.avi",
+  "aP43_54.avi",
+  "aP43_55.avi",
+  "aP44_56.avi",
+  "aP44_57.avi",
+  "aP45_58.avi",
+  "aP45_59.avi",
+  "aP46_60_1.avi",
+  "aP46_60_2.avi",
+  "aP49_2_1.avi",
+  "aP49_2_2.avi",
+  "aP49_2_3.avi",
+  "aP50_3_1.avi",
+  "aP50_3_2.avi",
+  "aP50_3_3.avi",
+  "aP51_4.avi",
+  "aP52_5.avi",
+  "aP56_10_1.avi",
+  "aP56_9.avi",
+  "aP57_10_2.avi",
+  "aP57_10_3.avi",
+  "aP58_10_4.avi",
+  "aP58_10_5.avi",
+  "aP59_10_6.avi",
+  "aP59_10_7.avi",
+  "aP60_10_8.avi",
+  "aP60_10_9.avi",
+  "aP61_10_10.avi",
+  "aP61_10_11.avi",
+  "aP62_10_12.avi",
+  "aP62_10_13.avi",
+  "aP63_10_14.avi",
+  "aP63_10_15.avi",
+  "aP69_16.avi",
+  "aP70_17.avi",
+  "aP70_18.avi",
+  "aP71_19_1.avi",
+  "aP71_19_2.avi",
+  "aP72_20_1.avi",
+  "aP72_20_2.avi",
+  "aP73_21.avi",
+  "aP73_22.avi",
+  "aP74_23.avi",
+  "aP74_24.avi",
+  "aP75_25.avi",
+  "aP75_26.avi",
+  "aP76_27.avi",
+  "aP77_28.avi",
+  "aP77_29.avi",
+  "aP79_32.avi",
+  "aP79_33.avi",
+  "aP80_34_1.avi",
+  "aP80_34_2.avi",
+  "aP81_1_1.avi",
+  "aP81_1_2.avi",
+  "aP82_1_3.avi",
+  "aP82_1_4.avi",
+  "aP83_1_5.avi",
+  "aP83_1_6.avi",
+  "aP84_2_1.avi",
+  "aP84_2_2.avi",
+  "nodio.avi",
+  "P111_21.avi",
+  "P115_22_2.avi"
+ ],
+ "fail": [],
+ "probe": {
+  "aP105_18.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP115_22_4.avi": {
+   "codec": "indeo5",
+   "w": 640,
+   "h": 480,
+   "fps": "1873/125",
+   "nb": "211",
+   "dur": "14.081687",
+   "has_audio": true
+  },
+  "aP117_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP35_41.avi": {
+   "codec": "cinepak",
+   "w": 180,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP39_47.avi": {
+   "codec": "cinepak",
+   "w": 320,
+   "h": 240,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP39_47_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP39_47_2.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP40_48.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP40_49.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP41_50.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP41_51.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP42_52.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP42_53.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP43_54.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP43_55.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP44_56.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP44_57.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP45_58.avi": {
+   "codec": "cinepak",
+   "w": 180,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP45_59.avi": {
+   "codec": "cinepak",
+   "w": 180,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP46_60_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP46_60_2.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP49_2_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP49_2_2.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP49_2_3.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP50_3_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP50_3_2.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP50_3_3.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP51_4.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP52_5.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP56_10_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP56_9.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP57_10_2.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP57_10_3.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP58_10_4.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP58_10_5.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP59_10_6.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP59_10_7.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP60_10_8.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP60_10_9.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP61_10_10.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP61_10_11.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP62_10_12.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP62_10_13.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP63_10_14.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP63_10_15.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP69_16.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP70_17.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP70_18.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP71_19_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP71_19_2.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP72_20_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP72_20_2.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP73_21.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP73_22.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP74_23.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP74_24.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP75_25.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP75_26.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP76_27.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP77_28.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP77_29.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP79_32.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP79_33.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP80_34_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP80_34_2.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP81_1_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP81_1_2.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP82_1_3.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP82_1_4.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP83_1_5.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP83_1_6.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP84_2_1.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "aP84_2_2.avi": {
+   "codec": "cinepak",
+   "w": 185,
+   "h": 140,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "nodio.avi": {
+   "codec": "cinepak",
+   "w": 180,
+   "h": 135,
+   "fps": "30/1",
+   "nb": "101",
+   "dur": "3.366667",
+   "has_audio": false
+  },
+  "P111_21.avi": {
+   "codec": "msvideo1",
+   "w": 320,
+   "h": 240,
+   "fps": "30/1",
+   "nb": "1281",
+   "dur": "42.700000",
+   "has_audio": false
+  },
+  "P115_22_2.avi": {
+   "codec": "cinepak",
+   "w": 320,
+   "h": 240,
+   "fps": "30/1",
+   "nb": "594",
+   "dur": "19.800000",
+   "has_audio": false
+  }
+ },
+ "elapsed_sec": 36.5
+}

@@ -1,0 +1,3129 @@
+{
+ "gct": [
+  {
+   "script": "wait",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 1 - wait.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 10 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "disable",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 11 - disable.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "closeTV",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 12 - closeTV.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "sub_ans",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 13 - sub_ans.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "ans_sub",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 14 - ans_sub.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "gText",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 15 - gText.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "TPtext",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 16 - TPtext.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "BehaviorScript 17",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 17.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "put_avi",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 18 - put_avi.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "playup",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 19 - playup.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "quit",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 2 - quit.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "stopdown",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 20 - stopdown.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "rewindup",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 21 - rewindup.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g89_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 22 - g89_1.ls",
+   "tihao": [
+    "89_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g90_2_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 23 - g90_2_1.ls",
+   "tihao": [
+    "90_2_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g90_2_2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 24 - g90_2_2.ls",
+   "tihao": [
+    "90_2_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g90_2_3",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 25 - g90_2_3.ls",
+   "tihao": [
+    "90_2_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g91_3_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 26 - g91_3_1.ls",
+   "tihao": [
+    "91_3_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g91_3_2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 27 - g91_3_2.ls",
+   "tihao": [
+    "91_3_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "answer",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 29 - answer.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go star1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 3 - go star1.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "start",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 30 - start.ls",
+   "tihao": [
+    "89_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "Zans",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 31 - Zans.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g70_18",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 32 - g70_18.ls",
+   "tihao": [
+    "70_18"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "jieti",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 33 - jieti.ls",
+   "tihao": [
+    "89_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "reset",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 36 - reset.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g75_26",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 37 - g75_26.ls",
+   "tihao": [
+    "75_26"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g92_4_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 38 - g92_4_1.ls",
+   "tihao": [
+    "92_4_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g92_4_2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 39 - g92_4_2.ls",
+   "tihao": [
+    "92_4_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 4 - go xueti2.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g80_34_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 40 - g80_34_1.ls",
+   "tihao": [
+    "80_34_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g79_33",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 41 - g79_33.ls",
+   "tihao": [
+    "79_33"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g78_31",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 42 - g78_31.ls",
+   "tihao": [
+    "78_31"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g79_32",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 43 - g79_32.ls",
+   "tihao": [
+    "79_32"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g78_30",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 44 - g78_30.ls",
+   "tihao": [
+    "78_30"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g77_29",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 45 - g77_29.ls",
+   "tihao": [
+    "77_29"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g77_28",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 46 - g77_28.ls",
+   "tihao": [
+    "77_28"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g76_27",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 47 - g76_27.ls",
+   "tihao": [
+    "76_27"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g92_4_3",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 48 - g92_4_3.ls",
+   "tihao": [
+    "92_4_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g92_4_4",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 49 - g92_4_4.ls",
+   "tihao": [
+    "92_4_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti3",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 5 - go xueti3.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g93_5",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 50 - g93_5.ls",
+   "tihao": [
+    "93_5"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g94_6",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 51 - g94_6.ls",
+   "tihao": [
+    "94_6"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g95_7_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 52 - g95_7_1.ls",
+   "tihao": [
+    "95_7_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g95_7_2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 53 - g95_7_2.ls",
+   "tihao": [
+    "95_7_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g95_8",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 54 - g95_8.ls",
+   "tihao": [
+    "95_8"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g96_9",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 55 - g96_9.ls",
+   "tihao": [
+    "96_9"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g97_10",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 56 - g97_10.ls",
+   "tihao": [
+    "97_10"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g98_11",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 57 - g98_11.ls",
+   "tihao": [
+    "98_11"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g99_12",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 58 - g99_12.ls",
+   "tihao": [
+    "99_12"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g101_13",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 59 - g101_13.ls",
+   "tihao": [
+    "101_13"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 6 - go xueti.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g102_14",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 60 - g102_14.ls",
+   "tihao": [
+    "102_14"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g103_15_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 61 - g103_15_1.ls",
+   "tihao": [
+    "103_15_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g103_15_2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 62 - g103_15_2.ls",
+   "tihao": [
+    "103_15_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g72_20_2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 63 - g72_20_2.ls",
+   "tihao": [
+    "72_20_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g72_20_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 64 - g72_20_1.ls",
+   "tihao": [
+    "72_20_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g71_19_2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 65 - g71_19_2.ls",
+   "tihao": [
+    "71_19_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g71_19_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 66 - g71_19_1.ls",
+   "tihao": [
+    "71_19_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g70_17",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 67 - g70_17.ls",
+   "tihao": [
+    "70_17"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g69_16",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 68 - g69_16.ls",
+   "tihao": [
+    "69_16"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g68_15",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 69 - g68_15.ls",
+   "tihao": [
+    "68_15"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go tv ",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 7 - go tv .ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g67_14",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 70 - g67_14.ls",
+   "tihao": [
+    "67_14"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g66_13_2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 71 - g66_13_2.ls",
+   "tihao": [
+    "66_13_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g66_13_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 72 - g66_13_1.ls",
+   "tihao": [
+    "66_13_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g65_12",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 73 - g65_12.ls",
+   "tihao": [
+    "65_12"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g64_11_6",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 74 - g64_11_6.ls",
+   "tihao": [
+    "64_11_6"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g115_22_4",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 75 - g115_22_4.ls",
+   "tihao": [
+    "115_22_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g115_22_3",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 76 - g115_22_3.ls",
+   "tihao": [
+    "115_22_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g115_22_2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 77 - g115_22_2.ls",
+   "tihao": [
+    "115_22_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g115_22_1",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 78 - g115_22_1.ls",
+   "tihao": [
+    "115_22_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g111_21",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 79 - g111_21.ls",
+   "tihao": [
+    "111_21"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g80_34_2",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 8 - g80_34_2.ls",
+   "tihao": [
+    "80_34_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g109_20",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 80 - g109_20.ls",
+   "tihao": [
+    "109_20"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g107_19",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 81 - g107_19.ls",
+   "tihao": [
+    "107_19"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g105_18",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 82 - g105_18.ls",
+   "tihao": [
+    "105_18"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g104_16",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 83 - g104_16.ls",
+   "tihao": [
+    "104_16"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g103_15_3",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 84 - g103_15_3.ls",
+   "tihao": [
+    "103_15_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g73_21",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 85 - g73_21.ls",
+   "tihao": [
+    "73_21"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g73_22",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 86 - g73_22.ls",
+   "tihao": [
+    "73_22"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g74_23",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 87 - g74_23.ls",
+   "tihao": [
+    "74_23"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g74_24",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 88 - g74_24.ls",
+   "tihao": [
+    "74_24"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g75_25",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 89 - g75_25.ls",
+   "tihao": [
+    "75_25"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 9 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g76_27",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 90 - g76_27.ls",
+   "tihao": [
+    "76_27"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g77_28",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 91 - g77_28.ls",
+   "tihao": [
+    "77_28"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g77_29",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 92 - g77_29.ls",
+   "tihao": [
+    "77_29"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g78_30",
+   "file": "gct\\gct\\casts\\behaviors\\BehaviorScript 93 - g78_30.ls",
+   "tihao": [
+    "78_30"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "reset",
+   "file": "gct\\gct\\casts\\ÄÚ²¿\\BehaviorScript 16 - reset.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g95n",
+   "file": "gct\\gct\\casts\\ÄÚ²¿\\BehaviorScript 19 - g95n.ls",
+   "tihao": [
+    "95n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g100_1n",
+   "file": "gct\\gct\\casts\\ÄÚ²¿\\BehaviorScript 20 - g100_1n.ls",
+   "tihao": [
+    "100_1n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g103n",
+   "file": "gct\\gct\\casts\\ÄÚ²¿\\BehaviorScript 21 - g103n.ls",
+   "tihao": [
+    "103n"
+   ],
+   "members": [],
+   "goto": []
+  }
+ ],
+ "jcty": [
+  {
+   "script": "wait",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 1 - wait.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 10 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g38_11_1_n",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 100 - g38_11_1_n.ls",
+   "tihao": [
+    "38_11_1_n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g38_11_2_n",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 101 - g38_11_2_n.ls",
+   "tihao": [
+    "38_11_2_n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g16_8",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 102 - g16_8.ls",
+   "tihao": [
+    "16_8"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "disable",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 11 - disable.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "closeTV",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 12 - closeTV.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "sub_ans",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 13 - sub_ans.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "ans_sub",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 14 - ans_sub.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "gText",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 15 - gText.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "TPtext",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 16 - TPtext.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "BehaviorScript 17",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 17.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "put_avi",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 18 - put_avi.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "playup",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 19 - playup.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "quit",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 2 - quit.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "stopdown",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 20 - stopdown.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "rewindup",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 21 - rewindup.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g13_1",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 22 - g13_1.ls",
+   "tihao": [
+    "13_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g13_2",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 23 - g13_2.ls",
+   "tihao": [
+    "13_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g14_3",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 24 - g14_3.ls",
+   "tihao": [
+    "14_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g14_4",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 25 - g14_4.ls",
+   "tihao": [
+    "14_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g15_5",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 26 - g15_5.ls",
+   "tihao": [
+    "15_5"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g45_59",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 27 - g45_59.ls",
+   "tihao": [
+    "45_59"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "answer",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 29 - answer.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go star1",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 3 - go star1.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "start",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 30 - start.ls",
+   "tihao": [
+    "13_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "Zans",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 31 - Zans.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g35_41",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 32 - g35_41.ls",
+   "tihao": [
+    "35_41"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "jieti",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 33 - jieti.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "reset",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 36 - reset.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g40_49",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 37 - g40_49.ls",
+   "tihao": [
+    "40_49"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g46_60_1",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 38 - g46_60_1.ls",
+   "tihao": [
+    "46_60_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g46_60_2",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 39 - g46_60_2.ls",
+   "tihao": [
+    "46_60_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti2",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 4 - go xueti2.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g44_57",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 40 - g44_57.ls",
+   "tihao": [
+    "44_57"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g44_56",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 41 - g44_56.ls",
+   "tihao": [
+    "44_56"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g43_54",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 42 - g43_54.ls",
+   "tihao": [
+    "43_54"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g43_55",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 43 - g43_55.ls",
+   "tihao": [
+    "43_55"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g42_53",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 44 - g42_53.ls",
+   "tihao": [
+    "42_53"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g42_52",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 45 - g42_52.ls",
+   "tihao": [
+    "42_52"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g41_51",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 46 - g41_51.ls",
+   "tihao": [
+    "41_51"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g41_50",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 47 - g41_50.ls",
+   "tihao": [
+    "41_50"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g15_6",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 48 - g15_6.ls",
+   "tihao": [
+    "15_6"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g16_7",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 49 - g16_7.ls",
+   "tihao": [
+    "16_7"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti3",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 5 - go xueti3.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g16_8",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 50 - g16_8.ls",
+   "tihao": [
+    "16_8"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g17_9",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 51 - g17_9.ls",
+   "tihao": [
+    "17_9"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g17_10",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 52 - g17_10.ls",
+   "tihao": [
+    "17_10"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g18_11",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 53 - g18_11.ls",
+   "tihao": [
+    "18_11"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g18_12",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 54 - g18_12.ls",
+   "tihao": [
+    "18_12"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g19_13",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 55 - g19_13.ls",
+   "tihao": [
+    "19_13"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g19_14",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 56 - g19_14.ls",
+   "tihao": [
+    "19_14"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g20_15",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 57 - g20_15.ls",
+   "tihao": [
+    "20_15"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g20_16",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 58 - g20_16.ls",
+   "tihao": [
+    "20_16"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g21_17",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 59 - g21_17.ls",
+   "tihao": [
+    "21_17"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 6 - go xueti.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g21_18",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 60 - g21_18.ls",
+   "tihao": [
+    "21_18"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g22_19_1",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 61 - g22_19_1.ls",
+   "tihao": [
+    "22_19_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "22_19_2",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 62 - 22_19_2.ls",
+   "tihao": [
+    "22_19_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g23_20",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 63 - g23_20.ls",
+   "tihao": [
+    "23_20"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g23_21",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 64 - g23_21.ls",
+   "tihao": [
+    "23_21"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g24_22",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 65 - g24_22.ls",
+   "tihao": [
+    "24_22"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g25_23",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 66 - g25_23.ls",
+   "tihao": [
+    "25_23"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g26_24",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 67 - g26_24.ls",
+   "tihao": [
+    "26_24"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g26_25",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 68 - g26_25.ls",
+   "tihao": [
+    "26_25"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g27_26",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 69 - g27_26.ls",
+   "tihao": [
+    "27_26"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go tv ",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 7 - go tv .ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g27_27",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 70 - g27_27.ls",
+   "tihao": [
+    "27_27"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g28_28",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 71 - g28_28.ls",
+   "tihao": [
+    "28_28"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g28_29",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 72 - g28_29.ls",
+   "tihao": [
+    "28_29"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g29_30",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 73 - g29_30.ls",
+   "tihao": [
+    "29_30"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g30_31",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 74 - g30_31.ls",
+   "tihao": [
+    "30_31"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g30_32",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 75 - g30_32.ls",
+   "tihao": [
+    "30_32"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g31_33",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 76 - g31_33.ls",
+   "tihao": [
+    "31_33"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g31_34",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 77 - g31_34.ls",
+   "tihao": [
+    "31_34"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g32_35_1",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 78 - g32_35_1.ls",
+   "tihao": [
+    "32_35_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g33_36",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 79 - g33_36.ls",
+   "tihao": [
+    "33_36"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g45_58",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 8 - g45_58.ls",
+   "tihao": [
+    "45_58"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g33_37",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 80 - g33_37.ls",
+   "tihao": [
+    "33_37"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g34_38",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 81 - g34_38.ls",
+   "tihao": [
+    "34_38"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g34_39",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 82 - g34_39.ls",
+   "tihao": [
+    "34_39"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g35_40",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 83 - g35_40.ls",
+   "tihao": [
+    "35_40"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g36_42",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 84 - g36_42.ls",
+   "tihao": [
+    "36_42"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g36_43",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 85 - g36_43.ls",
+   "tihao": [
+    "36_43"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g37_44",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 86 - g37_44.ls",
+   "tihao": [
+    "37_44"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g37_45",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 87 - g37_45.ls",
+   "tihao": [
+    "37_45"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g38_46_1",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 88 - g38_46_1.ls",
+   "tihao": [
+    "38_46_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g40_48",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 89 - g40_48.ls",
+   "tihao": [
+    "36_7_n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 9 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g39_47_2",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 90 - g39_47_2.ls",
+   "tihao": [
+    "39_47_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g39_47_1",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 91 - g39_47_1.ls",
+   "tihao": [
+    "39_47_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g38_46_2",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 92 - g38_46_2.ls",
+   "tihao": [
+    "38_46_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g32_35_2",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 93 - g32_35_2.ls",
+   "tihao": [
+    "32_35_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g22_23_1_n",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 94 - g22_23_1_n.ls",
+   "tihao": [
+    "22_23_1_n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g22_23_2_n",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 95 - g22_23_2_n.ls",
+   "tihao": [
+    "22_23_2_n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g26_30_3_n",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 96 - g26_30_3_n.ls",
+   "tihao": [
+    "26_30_3_n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g27_32_n",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 97 - g27_32_n.ls",
+   "tihao": [
+    "27_32_n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g29_35_1_n",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 98 - g29_35_1_n.ls",
+   "tihao": [
+    "29_35_1_n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g29_35_2_n",
+   "file": "jcty\\jcty\\casts\\behaviors\\BehaviorScript 99 - g29_35_2_n.ls",
+   "tihao": [
+    "29_35_2_n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "reset",
+   "file": "jcty\\jcty\\casts\\ÄÚ²¿\\BehaviorScript 16 - reset.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  }
+ ],
+ "zht": [
+  {
+   "script": "wait",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 1 - wait.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 10 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "disable",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 11 - disable.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "closeTV",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 12 - closeTV.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "sub_ans",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 13 - sub_ans.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "ans_sub",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 14 - ans_sub.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "gText",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 15 - gText.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "TPtext",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 16 - TPtext.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "BehaviorScript 17",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 17.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "put_avi",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 18 - put_avi.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "playup",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 19 - playup.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "quit",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 2 - quit.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "stopdown",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 20 - stopdown.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "rewindup",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 21 - rewindup.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g47_1",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 22 - g47_1.ls",
+   "tihao": [
+    "47_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g49_2_1",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 23 - g49_2_1.ls",
+   "tihao": [
+    "49_2_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g49_2_2",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 24 - g49_2_2.ls",
+   "tihao": [
+    "49_2_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g49_2_3",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 25 - g49_2_3.ls",
+   "tihao": [
+    "49_2_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g50_3_1",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 26 - g50_3_1.ls",
+   "tihao": [
+    "50_3_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g50_3_2",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 27 - g50_3_2.ls",
+   "tihao": [
+    "50_3_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "answer",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 29 - answer.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go star1",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 3 - go star1.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "start",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 30 - start.ls",
+   "tihao": [
+    "47_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "Zans",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 31 - Zans.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g70_18",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 32 - g70_18.ls",
+   "tihao": [
+    "70_18"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "jieti",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 33 - jieti.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "reset",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 36 - reset.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g75_26",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 37 - g75_26.ls",
+   "tihao": [
+    "75_26"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g50_3_3",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 38 - g50_3_3.ls",
+   "tihao": [
+    "50_3_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g51_4",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 39 - g51_4.ls",
+   "tihao": [
+    "51_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti2",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 4 - go xueti2.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g80_34_1",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 40 - g80_34_1.ls",
+   "tihao": [
+    "80_34_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g79_33",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 41 - g79_33.ls",
+   "tihao": [
+    "79_33"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g78_31",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 42 - g78_31.ls",
+   "tihao": [
+    "78_31"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g79_32",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 43 - g79_32.ls",
+   "tihao": [
+    "79_32"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g78_30",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 44 - g78_30.ls",
+   "tihao": [
+    "78_30"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g77_29",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 45 - g77_29.ls",
+   "tihao": [
+    "77_29"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g77_28",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 46 - g77_28.ls",
+   "tihao": [
+    "77_28"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g76_27",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 47 - g76_27.ls",
+   "tihao": [
+    "76_27"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g52_5",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 48 - g52_5.ls",
+   "tihao": [
+    "52_5"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g53_6",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 49 - g53_6.ls",
+   "tihao": [
+    "53_6"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti3",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 5 - go xueti3.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g54_7",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 50 - g54_7.ls",
+   "tihao": [
+    "54_7"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g55_8",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 51 - g55_8.ls",
+   "tihao": [
+    "55_8"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g56_9",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 52 - g56_9.ls",
+   "tihao": [
+    "56_9"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g56_10_1",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 53 - g56_10_1.ls",
+   "tihao": [
+    "56_10_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g57_10_2",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 54 - g57_10_2.ls",
+   "tihao": [
+    "57_10_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g57_10_3",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 55 - g57_10_3.ls",
+   "tihao": [
+    "57_10_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g58_10_4",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 56 - g58_10_4.ls",
+   "tihao": [
+    "58_10_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g58_10_5",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 57 - g58_10_5.ls",
+   "tihao": [
+    "58_10_5"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g59_10_6",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 58 - g59_10_6.ls",
+   "tihao": [
+    "59_10_6"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g59_10_7",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 59 - g59_10_7.ls",
+   "tihao": [
+    "59_10_7"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 6 - go xueti.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g60_10_8",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 60 - g60_10_8.ls",
+   "tihao": [
+    "60_10_8"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g60_10_9",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 61 - g60_10_9.ls",
+   "tihao": [
+    "60_10_9"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g61_10_10",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 62 - g61_10_10.ls",
+   "tihao": [
+    "61_10_10"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g72_20_2",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 63 - g72_20_2.ls",
+   "tihao": [
+    "72_20_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g72_20_1",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 64 - g72_20_1.ls",
+   "tihao": [
+    "72_20_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g71_19_2",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 65 - g71_19_2.ls",
+   "tihao": [
+    "71_19_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g71_19_1",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 66 - g71_19_1.ls",
+   "tihao": [
+    "71_19_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g70_17",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 67 - g70_17.ls",
+   "tihao": [
+    "70_17"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g69_16",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 68 - g69_16.ls",
+   "tihao": [
+    "69_16"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g68_15",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 69 - g68_15.ls",
+   "tihao": [
+    "68_15"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go tv ",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 7 - go tv .ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g67_14",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 70 - g67_14.ls",
+   "tihao": [
+    "67_14"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g66_13_2",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 71 - g66_13_2.ls",
+   "tihao": [
+    "66_13_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g66_13_1",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 72 - g66_13_1.ls",
+   "tihao": [
+    "66_13_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g65_12",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 73 - g65_12.ls",
+   "tihao": [
+    "65_12"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g64_11_6",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 74 - g64_11_6.ls",
+   "tihao": [
+    "64_11_6"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g64_11_5",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 75 - g64_11_5.ls",
+   "tihao": [
+    "64_11_5"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g64_11_4",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 76 - g64_11_4.ls",
+   "tihao": [
+    "64_11_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g64_11_3",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 77 - g64_11_3.ls",
+   "tihao": [
+    "64_11_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g64_11_2",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 78 - g64_11_2.ls",
+   "tihao": [
+    "64_11_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g64_11_1",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 79 - g64_11_1.ls",
+   "tihao": [
+    "64_11_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g80_34_2",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 8 - g80_34_2.ls",
+   "tihao": [
+    "80_34_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g63_10_15",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 80 - g63_10_15.ls",
+   "tihao": [
+    "63_10_15"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g63_10_14",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 81 - g63_10_14.ls",
+   "tihao": [
+    "63_10_14"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g62_10_13",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 82 - g62_10_13.ls",
+   "tihao": [
+    "62_10_13"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g62_10_12",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 83 - g62_10_12.ls",
+   "tihao": [
+    "62_10_12"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g61_10_11",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 84 - g61_10_11.ls",
+   "tihao": [
+    "61_10_11"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g73_21",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 85 - g73_21.ls",
+   "tihao": [
+    "73_21"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g73_22",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 86 - g73_22.ls",
+   "tihao": [
+    "73_22"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g74_23",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 87 - g74_23.ls",
+   "tihao": [
+    "74_23"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g74_24",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 88 - g74_24.ls",
+   "tihao": [
+    "74_24"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g75_25",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 89 - g75_25.ls",
+   "tihao": [
+    "75_25"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 9 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g76_27",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 90 - g76_27.ls",
+   "tihao": [
+    "76_27"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g77_28",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 91 - g77_28.ls",
+   "tihao": [
+    "77_28"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g77_29",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 92 - g77_29.ls",
+   "tihao": [
+    "77_29"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g78_30",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 93 - g78_30.ls",
+   "tihao": [
+    "78_30"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g50_26n",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 94 - g50_26n.ls",
+   "tihao": [
+    "50_26n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g74n",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 95 - g74n.ls",
+   "tihao": [
+    "74n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g75_10n",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 96 - g75_10n.ls",
+   "tihao": [
+    "75_10n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g77_14n",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 97 - g77_14n.ls",
+   "tihao": [
+    "77_14n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g78_1n",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 98 - g78_1n.ls",
+   "tihao": [
+    "78_1n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti4",
+   "file": "zht\\zht\\casts\\behaviors\\BehaviorScript 99 - go xueti4.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "reset",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 16 - reset.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 22 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 23 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g125_5",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 24 - g125_5.ls",
+   "tihao": [
+    "125_5"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g126_6",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 25 - g126_6.ls",
+   "tihao": [
+    "126_6"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 264 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 265 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g88_3",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 266 - g88_3.ls",
+   "tihao": [
+    "88_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g88_4",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 267 - g88_4.ls",
+   "tihao": [
+    "88_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g127_7",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 27 - g127_7.ls",
+   "tihao": [
+    "127_7"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 270 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 271 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g81_1_1",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 272 - g81_1_1.ls",
+   "tihao": [
+    "81_1_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g81_1_2",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 273 - g81_1_2.ls",
+   "tihao": [
+    "81_1_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 276 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 277 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g82_1_3",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 278 - g82_1_3.ls",
+   "tihao": [
+    "82_1_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g82_1_4",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 279 - g82_1_4.ls",
+   "tihao": [
+    "82_1_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g127_8",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 28 - g127_8.ls",
+   "tihao": [
+    "127_8"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 282 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 283 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "84_2_1",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 284 - 84_2_1.ls",
+   "tihao": [
+    "84_2_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g84_2_2",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 285 - g84_2_2.ls",
+   "tihao": [
+    "84_2_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 288 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 289 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g85_3",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 290 - g85_3.ls",
+   "tihao": [
+    "85_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g85_4",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 291 - g85_4.ls",
+   "tihao": [
+    "85_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 30 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 31 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g63_10_15",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 32 - g63_10_15.ls",
+   "tihao": [
+    "63_10_15"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 38 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 39 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g85_4",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 40 - g85_4.ls",
+   "tihao": [
+    "85_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "New Behavior",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 41 - New Behavior.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g52_1n",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 42 - g52_1n.ls",
+   "tihao": [
+    "52_1n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g52_2n",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 44 - g52_2n.ls",
+   "tihao": [
+    "52_2n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g52_3n",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 47 - g52_3n.ls",
+   "tihao": [
+    "52_3n"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g52_4n",
+   "file": "zht\\zht\\casts\\ÄÚ²¿\\BehaviorScript 48 - g52_4n.ls",
+   "tihao": [
+    "52_4n"
+   ],
+   "members": [],
+   "goto": []
+  }
+ ],
+ "other": [
+  {
+   "script": "wait",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 1 - wait.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 10 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "disable",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 11 - disable.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "closeTV",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 12 - closeTV.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "sub_ans",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 13 - sub_ans.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "ans_sub",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 14 - ans_sub.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "gText",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 15 - gText.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "TPtext",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 16 - TPtext.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "BehaviorScript 17",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 17.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "put_avi",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 18 - put_avi.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "playup",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 19 - playup.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "quit",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 2 - quit.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "stopdown",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 20 - stopdown.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "rewindup",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 21 - rewindup.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g121_1",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 22 - g121_1.ls",
+   "tihao": [
+    "121_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g122_2",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 23 - g122_2.ls",
+   "tihao": [
+    "122_2"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g123_3",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 24 - g123_3.ls",
+   "tihao": [
+    "123_3"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g124_4",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 25 - g124_4.ls",
+   "tihao": [
+    "124_4"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g125_5",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 26 - g125_5.ls",
+   "tihao": [
+    "125_5"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "answer",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 29 - answer.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go star1",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 3 - go star1.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "start",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 30 - start.ls",
+   "tihao": [
+    "121_1"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "Zans",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 31 - Zans.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "jieti",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 33 - jieti.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "reset",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 36 - reset.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti2",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 4 - go xueti2.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g126_6",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 48 - g126_6.ls",
+   "tihao": [
+    "126_6"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g127_7",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 49 - g127_7.ls",
+   "tihao": [
+    "127_7"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti3",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 5 - go xueti3.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g127_8",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 50 - g127_8.ls",
+   "tihao": [
+    "127_8"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go xueti",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 6 - go xueti.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "go tv ",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 7 - go tv .ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "g45_58",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 8 - g45_58.ls",
+   "tihao": [
+    "45_58"
+   ],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouse",
+   "file": "other\\other\\casts\\behaviors\\BehaviorScript 9 - mouse.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "reset",
+   "file": "other\\other\\casts\\ÄÚ²¿\\BehaviorScript 16 - reset.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  }
+ ],
+ "txxt": [
+  {
+   "script": "mousein",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 1 - mousein.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "New Behavior",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 13 - New Behavior.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "zct",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 17 - zct.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "jhzx",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 18 - jhzx.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "gct",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 19 - gct.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "mouseout",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 2 - mouseout.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "other",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 20 - other.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "quit",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 21 - quit.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "goon",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 26 - goon.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "jcty",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 3 - jcty.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "wait",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 4 - wait.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  },
+  {
+   "script": "zht",
+   "file": "txxt\\txxt\\casts\\ÄÚ²¿\\BehaviorScript 5 - zht.ls",
+   "tihao": [],
+   "members": [],
+   "goto": []
+  }
+ ]
+}

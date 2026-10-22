@@ -1,0 +1,19 @@
+{
+  "appId": "app.tuxue.jieda",
+  "appName": "图学基础教程习题解答",
+  "webDir": "site",
+  "backgroundColor": "#f4f6f9",
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "initialViewportFitValueHint": "cover"
+    }
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

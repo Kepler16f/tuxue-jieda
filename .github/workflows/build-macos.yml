@@ -1,0 +1,134 @@
+name: Build macOS DMG
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      version:
+        description: '版本号 (如 0.3.2)'
+        required: true
+        default: '0.3.2'
+
+permissions:
+  contents: write
+
+jobs:
+  build-macos:
+    runs-on: macos-14
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Setup Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Install npm dependencies
+        run: npm install
+
+      - name: Add iOS platform (provides macOS Catalyst target)
+        run: npx cap add ios || true
+
+      - name: Copy web assets
+        run: npx cap copy ios
+
+      - name: Extract version
+        id: ver
+        run: |
+          V="${{ github.event.inputs.version }}"
+          if [ -z "$V" ]; then
+            V=$(grep -oP "VERSION\s*=\s*'\K[^']+" site/app.js | head -1)
+          fi
+          [ -z "$V" ] && V="1.0.0"
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "Version: $V"
+
+      - name: Configure Mac Catalyst scheme
+        working-directory: ios/App
+        run: |
+          set -e
+          PBXPROJ="App.xcodeproj/project.pbxproj"
+          # 为 iOS target 启用 Mac Catalyst 支持
+          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName 图学基础教程习题解答" App/App/Info.plist 2>/dev/null || true
+          # 设置 MARKETING_VERSION
+          sed -i '' "s/MARKETING_VERSION = 1.0;/MARKETING_VERSION = ${{ steps.ver.outputs.version }};/g" "$PBXPROJ"
+          # SUPPORTS_MACCATALYST = YES
+          sed -i '' 's/ENABLE_USER_SCRIPT_SANDBOXING = YES;/ENABLE_USER_SCRIPT_SANDBOXING = YES; SUPPORTS_MACCATALYST = YES;/g' "$PBXPROJ"
+
+      - name: Build archive (Mac Catalyst)
+        working-directory: ios/App
+        run: |
+          set -e
+          xcodebuild archive \
+            -project App.xcodeproj \
+            -scheme App \
+            -configuration Release \
+            -destination 'generic/platform=macOS,variant=Mac Catalyst' \
+            -archivePath "$RUNNER_TEMP/App.xcarchive" \
+            CODE_SIGN_IDENTITY="-" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            DEVELOPMENT_TEAM="" \
+            | xcpretty || xcodebuild archive \
+            -project App.xcodeproj \
+            -scheme App \
+            -configuration Release \
+            -destination 'generic/platform=macOS,variant=Mac Catalyst' \
+            -archivePath "$RUNNER_TEMP/App.xcarchive" \
+            CODE_SIGN_IDENTITY="-" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            DEVELOPMENT_TEAM=""
+
+      - name: Export .app
+        run: |
+          set -e
+          APP_PATH="$RUNNER_TEMP/App.xcarchive/Products/Applications/App.app"
+          if [ ! -d "$APP_PATH" ]; then
+            APP_PATH=$(find "$RUNNER_TEMP/App.xcarchive" -name "*.app" -maxdepth 4 -type d | head -1)
+          fi
+          echo "Found app: $APP_PATH"
+          cp -R "$APP_PATH" "$RUNNER_TEMP/图学基础教程习题解答.app"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString ${{ steps.ver.outputs.version }}" "$RUNNER_TEMP/图学基础教程习题解答.app/Contents/Info.plist"
+          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName 图学基础教程习题解答" "$RUNNER_TEMP/图学基础教程习题解答.app/Contents/Info.plist" 2>/dev/null || true
+          /usr/libexec/PlistBuddy -c "Set :CFBundleName 图学基础教程习题解答" "$RUNNER_TEMP/图学基础教程习题解答.app/Contents/Info.plist" 2>/dev/null || true
+
+      - name: Create DMG
+        run: |
+          set -e
+          APP="$RUNNER_TEMP/图学基础教程习题解答.app"
+          DMG_NAME="图学基础教程习题解答-${{ steps.ver.outputs.version }}-macOS.dmg"
+          mkdir -p "$RUNNER_TEMP/dmg-root"
+          rm -rf "$RUNNER_TEMP/dmg-root"/*
+          cp -R "$APP" "$RUNNER_TEMP/dmg-root/"
+          ln -s /Applications "$RUNNER_TEMP/dmg-root/Applications"
+          mkdir -p "$GITHUB_WORKSPACE/out"
+          hdiutil create -volname "图学基础教程习题解答" \
+            -srcfolder "$RUNNER_TEMP/dmg-root" \
+            -fs HFS+ \
+            -format UDZO \
+            -imagekey zlib-level=9 \
+            "$GITHUB_WORKSPACE/out/$DMG_NAME"
+          ls -lh "$GITHUB_WORKSPACE/out/"
+
+      - name: Upload DMG artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: macOS-DMG
+          path: out/*.dmg
+          if-no-files-found: error
+
+      - name: Attach DMG to release (on tag)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: out/*.dmg
+          generate_release_notes: true

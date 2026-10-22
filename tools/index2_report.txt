@@ -1,0 +1,28 @@
+[index2] items=212 (TP=202, 补充=10) pages=104
+[index2] images placed=496/496, jieti=203/203, videos=75/75
+[index2] supplements (15):
+    P22 base=22 var=True img <- P22_22_na.jpg
+    P22 base=22 var=True img <- P22_22_ns.jpg
+    P26 base=24_1 var=False img <- P26_24_1a.jpg
+    P26 base=24_1 var=False img <- P26_24_1s.jpg
+    P26 base=30 var=True img <- P26_30_na.jpg
+    P26 base=30 var=True img <- P26_30_ns.jpg
+    P35 base=42 var=False img <- P35_42a.jpg
+    P44 base=None var=True img <- P44na.jpg
+    P44 base=None var=True img <- P44ns.jpg
+    P81 base=1 var=False img <- P81_1a.jpg
+    P84 base=2 var=False img <- P84_2a.jpg
+    P84 base=2 var=False img <- P84_2s.jpg
+    P36 base=7 var=False dir <- jieP36_7
+    P117 base=1 var=False vid <- aP117_1
+    P39 base=47 var=False vid <- aP39_47
+    P22: 第19题(1) 第19题(2) 第22题·变式 第23题(1)·变式 第23题(2)·变式
+    P26: 第24题 第25题 第30题·变式 第30题(3)·变式 第24题(1)
+    P35: 第42题 第40题 第41题
+    P36: 第7题 第7题·变式 第42题 第43题
+    P38: 第11题(1)·变式 第11题(2)·变式 第46题(1) 第46题(2)
+    P39: 第47题 第47题(1) 第47题(2)
+    P44: 全页变式 第56题 第57题
+    P73: 第21题 第22题
+    P100: 第1题·变式
+    P103: 第15题(1) 第15题(2) 第15题(3) 全页变式
